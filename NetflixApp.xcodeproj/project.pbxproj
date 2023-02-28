@@ -12,6 +12,10 @@
 		39111F8A29ADE4940013A76E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39111F8929ADE4940013A76E /* MainViewController.swift */; };
 		39111F8F29ADE4960013A76E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39111F8E29ADE4960013A76E /* Assets.xcassets */; };
 		39111F9229ADE4960013A76E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39111F9029ADE4960013A76E /* LaunchScreen.storyboard */; };
+		39111F9D29ADE8380013A76E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39111F9C29ADE8380013A76E /* HomeViewController.swift */; };
+		39111F9F29ADE8450013A76E /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39111F9E29ADE8450013A76E /* UpcomingViewController.swift */; };
+		39111FA129ADE8560013A76E /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39111FA029ADE8560013A76E /* SearchViewController.swift */; };
+		39111FA329ADE8680013A76E /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39111FA229ADE8680013A76E /* DownloadsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		39111F8E29ADE4960013A76E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39111F9129ADE4960013A76E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		39111F9329ADE4960013A76E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39111F9C29ADE8380013A76E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		39111F9E29ADE8450013A76E /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
+		39111FA029ADE8560013A76E /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		39111FA229ADE8680013A76E /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,9 @@
 		39111F8429ADE4940013A76E /* NetflixApp */ = {
 			isa = PBXGroup;
 			children = (
+				39111F9929ADE7FD0013A76E /* Model */,
+				39111F9A29ADE8030013A76E /* ViewModel */,
+				39111F9B29ADE80D0013A76E /* Controllers */,
 				39111F8529ADE4940013A76E /* AppDelegate.swift */,
 				39111F8729ADE4940013A76E /* SceneDelegate.swift */,
 				39111F8929ADE4940013A76E /* MainViewController.swift */,
@@ -62,6 +73,31 @@
 				39111F9329ADE4960013A76E /* Info.plist */,
 			);
 			path = NetflixApp;
+			sourceTree = "<group>";
+		};
+		39111F9929ADE7FD0013A76E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		39111F9A29ADE8030013A76E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		39111F9B29ADE80D0013A76E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				39111F9C29ADE8380013A76E /* HomeViewController.swift */,
+				39111F9E29ADE8450013A76E /* UpcomingViewController.swift */,
+				39111FA029ADE8560013A76E /* SearchViewController.swift */,
+				39111FA229ADE8680013A76E /* DownloadsViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,9 +170,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39111FA129ADE8560013A76E /* SearchViewController.swift in Sources */,
 				39111F8A29ADE4940013A76E /* MainViewController.swift in Sources */,
+				39111FA329ADE8680013A76E /* DownloadsViewController.swift in Sources */,
 				39111F8629ADE4940013A76E /* AppDelegate.swift in Sources */,
 				39111F8829ADE4940013A76E /* SceneDelegate.swift in Sources */,
+				39111F9F29ADE8450013A76E /* UpcomingViewController.swift in Sources */,
+				39111F9D29ADE8380013A76E /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
