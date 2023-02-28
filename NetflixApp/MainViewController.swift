@@ -1,10 +1,13 @@
 import UIKit
 
-class ViewController: UIViewController {
+class MainViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemPink
+        
+        
+        
     }
 
 
