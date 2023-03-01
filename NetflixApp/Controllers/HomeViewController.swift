@@ -6,7 +6,7 @@ class HomeViewController: UIViewController {
     // Список тайтлов
     
     let sectionTitle: [String] = ["Trending Movies", "Trending TV", "Popular",  "Upcoming Movies", "Top rated"]
-
+    
     private lazy var homeFeedTable: UITableView = {
         let tableView = UITableView(frame: .zero, style: .grouped)
         tableView.register(CollectionViewTableViewCell.self, forCellReuseIdentifier: CollectionViewTableViewCell.identifier)
@@ -22,6 +22,7 @@ class HomeViewController: UIViewController {
         homeFeedTable.delegate = self
         setupView()
         configurNavBar()
+        fetchData()
         
         let headerViewe = HeroHeaderUIView(frame: CGRect(x: 0, y: 0, width: view.bounds.width, height: 450))
         homeFeedTable.tableHeaderView = headerViewe
@@ -45,6 +46,12 @@ class HomeViewController: UIViewController {
         super.viewDidLayoutSubviews()
         homeFeedTable.frame = view.bounds
         
+    }
+    
+    func fetchData() {
+        APICaller.shared.getPupularMovies { _ in
+            
+        }
     }
 
 
