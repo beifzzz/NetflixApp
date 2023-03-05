@@ -28,6 +28,8 @@
 		39FBF00B29B4A6B300CFC5EF /* ResponseTopRatedMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FBF00A29B4A6B300CFC5EF /* ResponseTopRatedMovie.swift */; };
 		39FBF00E29B4B15E00CFC5EF /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 39FBF00D29B4B15E00CFC5EF /* SDWebImage */; };
 		39FBF01029B4B15E00CFC5EF /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 39FBF00F29B4B15E00CFC5EF /* SDWebImageMapKit */; };
+		39FBF01229B4D98F00CFC5EF /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FBF01129B4D98F00CFC5EF /* TitleTableViewCell.swift */; };
+		39FBF01429B4DF4E00CFC5EF /* TitleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FBF01329B4DF4E00CFC5EF /* TitleViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +54,8 @@
 		39D760BB29AF558400552E08 /* ResponsePopularMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponsePopularMovie.swift; sourceTree = "<group>"; };
 		39FBF00829B4814B00CFC5EF /* ResponseUpcomingMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseUpcomingMovie.swift; sourceTree = "<group>"; };
 		39FBF00A29B4A6B300CFC5EF /* ResponseTopRatedMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseTopRatedMovie.swift; sourceTree = "<group>"; };
+		39FBF01129B4D98F00CFC5EF /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
+		39FBF01329B4DF4E00CFC5EF /* TitleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,7 @@
 		39111F9A29ADE8030013A76E /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				39FBF01329B4DF4E00CFC5EF /* TitleViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -138,6 +143,7 @@
 				39111FA729ADFA2E0013A76E /* CollectionViewTableViewCell.swift */,
 				39111FAB29AE005A0013A76E /* HeroHeaderUIView.swift */,
 				39111FA929AE00000013A76E /* TitleCollectionViewCell.swift */,
+				39FBF01129B4D98F00CFC5EF /* TitleTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -247,10 +253,12 @@
 				39111F8629ADE4940013A76E /* AppDelegate.swift in Sources */,
 				39111FB429AE41530013A76E /* TrendingMovieResponse.swift in Sources */,
 				39111F8829ADE4940013A76E /* SceneDelegate.swift in Sources */,
+				39FBF01429B4DF4E00CFC5EF /* TitleViewModel.swift in Sources */,
 				39111FB229AE3E3B0013A76E /* Extensions.swift in Sources */,
 				39111FAA29AE00000013A76E /* TitleCollectionViewCell.swift in Sources */,
 				39111FAF29AE3D420013A76E /* APICaller.swift in Sources */,
 				39111F9F29ADE8450013A76E /* UpcomingViewController.swift in Sources */,
+				39FBF01229B4D98F00CFC5EF /* TitleTableViewCell.swift in Sources */,
 				39111F9D29ADE8380013A76E /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
