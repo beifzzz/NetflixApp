@@ -24,6 +24,8 @@
 		39111FB429AE41530013A76E /* TrendingMovieResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39111FB329AE41530013A76E /* TrendingMovieResponse.swift */; };
 		39D760BA29AF522500552E08 /* ResponseTrendingTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D760B929AF522500552E08 /* ResponseTrendingTV.swift */; };
 		39D760BC29AF558400552E08 /* ResponsePopularMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D760BB29AF558400552E08 /* ResponsePopularMovie.swift */; };
+		39FBF00929B4814B00CFC5EF /* ResponseUpcomingMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FBF00829B4814B00CFC5EF /* ResponseUpcomingMovie.swift */; };
+		39FBF00B29B4A6B300CFC5EF /* ResponseTopRatedMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FBF00A29B4A6B300CFC5EF /* ResponseTopRatedMovie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		39111FB329AE41530013A76E /* TrendingMovieResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingMovieResponse.swift; sourceTree = "<group>"; };
 		39D760B929AF522500552E08 /* ResponseTrendingTV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseTrendingTV.swift; sourceTree = "<group>"; };
 		39D760BB29AF558400552E08 /* ResponsePopularMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponsePopularMovie.swift; sourceTree = "<group>"; };
+		39FBF00829B4814B00CFC5EF /* ResponseUpcomingMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseUpcomingMovie.swift; sourceTree = "<group>"; };
+		39FBF00A29B4A6B300CFC5EF /* ResponseTopRatedMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseTopRatedMovie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				39111FB329AE41530013A76E /* TrendingMovieResponse.swift */,
 				39D760B929AF522500552E08 /* ResponseTrendingTV.swift */,
 				39D760BB29AF558400552E08 /* ResponsePopularMovie.swift */,
+				39FBF00829B4814B00CFC5EF /* ResponseUpcomingMovie.swift */,
+				39FBF00A29B4A6B300CFC5EF /* ResponseTopRatedMovie.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -224,7 +230,9 @@
 				39D760BA29AF522500552E08 /* ResponseTrendingTV.swift in Sources */,
 				39D760BC29AF558400552E08 /* ResponsePopularMovie.swift in Sources */,
 				39111FA829ADFA2E0013A76E /* CollectionViewTableViewCell.swift in Sources */,
+				39FBF00B29B4A6B300CFC5EF /* ResponseTopRatedMovie.swift in Sources */,
 				39111FA329ADE8680013A76E /* DownloadsViewController.swift in Sources */,
+				39FBF00929B4814B00CFC5EF /* ResponseUpcomingMovie.swift in Sources */,
 				39111F8629ADE4940013A76E /* AppDelegate.swift in Sources */,
 				39111FB429AE41530013A76E /* TrendingMovieResponse.swift in Sources */,
 				39111F8829ADE4940013A76E /* SceneDelegate.swift in Sources */,
