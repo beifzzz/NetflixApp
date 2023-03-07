@@ -24,6 +24,7 @@
 		39111FB429AE41530013A76E /* TrendingMovieResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39111FB329AE41530013A76E /* TrendingMovieResponse.swift */; };
 		39D760BA29AF522500552E08 /* ResponseTrendingTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D760B929AF522500552E08 /* ResponseTrendingTV.swift */; };
 		39D760BC29AF558400552E08 /* ResponsePopularMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D760BB29AF558400552E08 /* ResponsePopularMovie.swift */; };
+		39DE552029B70D4200BA27AC /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DE551F29B70D4200BA27AC /* SearchResultsViewController.swift */; };
 		39FBF00929B4814B00CFC5EF /* ResponseUpcomingMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FBF00829B4814B00CFC5EF /* ResponseUpcomingMovie.swift */; };
 		39FBF00B29B4A6B300CFC5EF /* ResponseTopRatedMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FBF00A29B4A6B300CFC5EF /* ResponseTopRatedMovie.swift */; };
 		39FBF00E29B4B15E00CFC5EF /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 39FBF00D29B4B15E00CFC5EF /* SDWebImage */; };
@@ -52,6 +53,7 @@
 		39111FB329AE41530013A76E /* TrendingMovieResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingMovieResponse.swift; sourceTree = "<group>"; };
 		39D760B929AF522500552E08 /* ResponseTrendingTV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseTrendingTV.swift; sourceTree = "<group>"; };
 		39D760BB29AF558400552E08 /* ResponsePopularMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponsePopularMovie.swift; sourceTree = "<group>"; };
+		39DE551F29B70D4200BA27AC /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
 		39FBF00829B4814B00CFC5EF /* ResponseUpcomingMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseUpcomingMovie.swift; sourceTree = "<group>"; };
 		39FBF00A29B4A6B300CFC5EF /* ResponseTopRatedMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseTopRatedMovie.swift; sourceTree = "<group>"; };
 		39FBF01129B4D98F00CFC5EF /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				39111F9E29ADE8450013A76E /* UpcomingViewController.swift */,
 				39111FA029ADE8560013A76E /* SearchViewController.swift */,
 				39111FA229ADE8680013A76E /* DownloadsViewController.swift */,
+				39DE551F29B70D4200BA27AC /* SearchResultsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 				39FBF00B29B4A6B300CFC5EF /* ResponseTopRatedMovie.swift in Sources */,
 				39111FA329ADE8680013A76E /* DownloadsViewController.swift in Sources */,
 				39FBF00929B4814B00CFC5EF /* ResponseUpcomingMovie.swift in Sources */,
+				39DE552029B70D4200BA27AC /* SearchResultsViewController.swift in Sources */,
 				39111F8629ADE4940013A76E /* AppDelegate.swift in Sources */,
 				39111FB429AE41530013A76E /* TrendingMovieResponse.swift in Sources */,
 				39111F8829ADE4940013A76E /* SceneDelegate.swift in Sources */,
