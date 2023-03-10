@@ -73,6 +73,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		390D8FB629BB6F7E00A713BE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				39111F9C29ADE8380013A76E /* HomeViewController.swift */,
+				39111F9E29ADE8450013A76E /* UpcomingViewController.swift */,
+				39111FA029ADE8560013A76E /* SearchViewController.swift */,
+				39111FA229ADE8680013A76E /* DownloadsViewController.swift */,
+				39111F8929ADE4940013A76E /* MainViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		390D8FB729BB6F8600A713BE /* General */ = {
+			isa = PBXGroup;
+			children = (
+				39DE551F29B70D4200BA27AC /* SearchResultsViewController.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
 		39111F7929ADE4940013A76E = {
 			isa = PBXGroup;
 			children = (
@@ -100,7 +120,6 @@
 				39111F9B29ADE80D0013A76E /* Controllers */,
 				39111F8529ADE4940013A76E /* AppDelegate.swift */,
 				39111F8729ADE4940013A76E /* SceneDelegate.swift */,
-				39111F8929ADE4940013A76E /* MainViewController.swift */,
 				39111F8E29ADE4960013A76E /* Assets.xcassets */,
 				39111F9029ADE4960013A76E /* LaunchScreen.storyboard */,
 				39111F9329ADE4960013A76E /* Info.plist */,
@@ -131,11 +150,8 @@
 		39111F9B29ADE80D0013A76E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				39111F9C29ADE8380013A76E /* HomeViewController.swift */,
-				39111F9E29ADE8450013A76E /* UpcomingViewController.swift */,
-				39111FA029ADE8560013A76E /* SearchViewController.swift */,
-				39111FA229ADE8680013A76E /* DownloadsViewController.swift */,
-				39DE551F29B70D4200BA27AC /* SearchResultsViewController.swift */,
+				390D8FB729BB6F8600A713BE /* General */,
+				390D8FB629BB6F7E00A713BE /* Core */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";

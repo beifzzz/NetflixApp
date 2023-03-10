@@ -20,11 +20,11 @@ struct Movie: Codable {
     let vote_average: Double
     let vote_count: Int
 }
-
 struct Genre: Codable {
     
 }
-    
+
+
 /*
  {
      page = 1;
